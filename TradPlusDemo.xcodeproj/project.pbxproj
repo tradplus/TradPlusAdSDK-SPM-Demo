@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048B022B248BF2650003F53E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B022A248BF2650003F53E /* main.m */; };
+		048B0248248BF4540003F53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048B0231248BF4530003F53E /* Assets.xcassets */; };
+		048B024B248BF4540003F53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048B0236248BF4540003F53E /* LaunchScreen.storyboard */; };
+		048B024C248BF4540003F53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048B0238248BF4540003F53E /* Main.storyboard */; };
+		048B024D248BF4540003F53E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B023A248BF4540003F53E /* AppDelegate.m */; };
+		048B0253248BF4540003F53E /* MsADTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B0245248BF4540003F53E /* MsADTableViewController.m */; };
+		04E47FD824971BE4006903C5 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E47FD724971BE4006903C5 /* libresolv.tbd */; };
+		04E47FDA24971BEA006903C5 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E47FD924971BEA006903C5 /* libxml2.tbd */; };
+		04E47FDC24971BEF006903C5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E47FDB24971BEE006903C5 /* libz.tbd */; };
+		5A1508D22795127300952903 /* TradPlusAdNativeDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1508D02795127300952903 /* TradPlusAdNativeDrawViewController.m */; };
+		5A1508D32795127300952903 /* TradPlusAdNativeDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1508D12795127300952903 /* TradPlusAdNativeDrawViewController.xib */; };
+		5A1508E02795191E00952903 /* NativeDrawListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1508D72795191D00952903 /* NativeDrawListViewController.m */; };
+		5A1508E12795191E00952903 /* NativeDrawListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1508D82795191E00952903 /* NativeDrawListViewController.xib */; };
+		5A19D465289CC78D0054CB52 /* TradPlusAdOfferwallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A19D463289CC78D0054CB52 /* TradPlusAdOfferwallViewController.m */; };
+		5A19D466289CC78D0054CB52 /* TradPlusAdOfferwallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A19D464289CC78D0054CB52 /* TradPlusAdOfferwallViewController.xib */; };
+		5A29FB5D2AD24867005AC9C7 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5A29FB5C2AD24867005AC9C7 /* video.mp4 */; };
+		5A2F261A26CB57C300CAD358 /* TPNativeTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F261726CB57C300CAD358 /* TPNativeTemplate.m */; };
+		5A2F261B26CB57C300CAD358 /* TPNativeTemplate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F261826CB57C300CAD358 /* TPNativeTemplate.xib */; };
+		5A63CA5C29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A63CA5A29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.m */; };
+		5A63CA5D29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A63CA5B29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.xib */; };
+		5A63CA6029B0546100F13C07 /* MediaVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A63CA5F29B0546100F13C07 /* MediaVideoManager.m */; };
+		5A63CA6429B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A63CA6229B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.m */; };
+		5A63CA6529B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A63CA6329B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.xib */; };
+		5A7FF43128F169FC00CDB172 /* AutoLayoutNatvieRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FF42F28F169FC00CDB172 /* AutoLayoutNatvieRenderer.m */; };
+		5A7FF43528F16A2C00CDB172 /* AutoLayoutNativeTemplate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A7FF43328F16A2C00CDB172 /* AutoLayoutNativeTemplate.xib */; };
+		5A7FF43628F16A2C00CDB172 /* AutoLayoutNativeTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FF43428F16A2C00CDB172 /* AutoLayoutNativeTemplate.m */; };
+		5A95FCC428B74C3700FAF758 /* TradPlusAdNativeInListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A95FCC228B74C3700FAF758 /* TradPlusAdNativeInListViewController.m */; };
+		5A95FCC528B74C3700FAF758 /* TradPlusAdNativeInListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A95FCC328B74C3700FAF758 /* TradPlusAdNativeInListViewController.xib */; };
+		5A95FCCE28B755CD00FAF758 /* TPListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A95FCCD28B755CD00FAF758 /* TPListItem.m */; };
+		5A95FCD428B77BE200FAF758 /* TPNativeInListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A95FCD228B77BE200FAF758 /* TPNativeInListView.m */; };
+		5A95FCD528B77BE200FAF758 /* TPNativeInListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A95FCD328B77BE200FAF758 /* TPNativeInListView.xib */; };
+		5A98A01B26CB58D200C11B85 /* TradPlusAdNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A98A01926CB58D200C11B85 /* TradPlusAdNativeViewController.m */; };
+		5A98A01C26CB58D200C11B85 /* TradPlusAdNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A98A01A26CB58D200C11B85 /* TradPlusAdNativeViewController.xib */; };
+		5AAAE0A42FE28ED8001E9B18 /* TPBannerInListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAE0A32FE28ED8001E9B18 /* TPBannerInListViewController.m */; };
+		5ABF4AE32C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF4AE12C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.m */; };
+		5ABF4AE42C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF4AE22C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.xib */; };
+		5ACB75252711AC3500FC9735 /* CustomAdMobNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB751D2711AC3500FC9735 /* CustomAdMobNativeAdapter.m */; };
+		5ACB75262711AC3500FC9735 /* CustomRewardedAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB751E2711AC3500FC9735 /* CustomRewardedAdapter.m */; };
+		5ACB75272711AC3500FC9735 /* CustomSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB751F2711AC3500FC9735 /* CustomSplashAdapter.m */; };
+		5ACB75282711AC3500FC9735 /* CustomInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB75232711AC3500FC9735 /* CustomInterstitialAdapter.m */; };
+		5ACB75292711AC3500FC9735 /* CustomBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB75242711AC3500FC9735 /* CustomBannerAdapter.m */; };
+		5ACB75332713EAAA00FC9735 /* CustomFacebookNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB75312713EAAA00FC9735 /* CustomFacebookNativeAdapter.m */; };
+		5AD5DE09277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5DE07277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.m */; };
+		5AD5DE0A277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD5DE08277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.xib */; };
+		5AD5DE0E277BFAF8005BAA07 /* TPNativePasterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD5DE0C277BFAF8005BAA07 /* TPNativePasterView.xib */; };
+		5AD5DE0F277BFAF8005BAA07 /* TPNativePasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5DE0D277BFAF8005BAA07 /* TPNativePasterView.m */; };
+		5AE342B427CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE342B227CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.m */; };
+		5AE342B527CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE342B327CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.xib */; };
+		5AE6C5B22750C4D900B0AD17 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6C5B12750C4D900B0AD17 /* File.swift */; };
+		5AF1AC622705B830006E2645 /* TradPlusAdInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1AC5F2705B830006E2645 /* TradPlusAdInterstitialViewController.xib */; };
+		5AF1AC632705B830006E2645 /* TradPlusAdInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1AC612705B830006E2645 /* TradPlusAdInterstitialViewController.m */; };
+		5AF1AC672705B8A7006E2645 /* TradPlusAdRewardedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1AC642705B8A7006E2645 /* TradPlusAdRewardedViewController.xib */; };
+		5AF1AC682705B8A7006E2645 /* TradPlusAdRewardedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1AC662705B8A7006E2645 /* TradPlusAdRewardedViewController.m */; };
+		5AF1AC6D2705B91B006E2645 /* TradPlusAdSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1AC6A2705B91B006E2645 /* TradPlusAdSplashViewController.m */; };
+		5AF1AC6E2705B91B006E2645 /* TradPlusAdSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1AC6C2705B91B006E2645 /* TradPlusAdSplashViewController.xib */; };
+		5AF6AA822C9D5A8700A9DA40 /* NativeBannerTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6AA802C9D5A8700A9DA40 /* NativeBannerTemplate.m */; };
+		5AF6AA832C9D5A8700A9DA40 /* NativeBannerTemplate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF6AA812C9D5A8700A9DA40 /* NativeBannerTemplate.xib */; };
+		5AFA31F226F5B0E800F21A36 /* TradPlusAdBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA31F026F5B0E800F21A36 /* TradPlusAdBannerViewController.xib */; };
+		5AFA31F326F5B0E800F21A36 /* TradPlusAdBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA31F126F5B0E800F21A36 /* TradPlusAdBannerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048B0215248BF2600003F53E /* TradPlusDemoN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradPlusDemoN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048B0229248BF2650003F53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048B022A248BF2650003F53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048B0231248BF4530003F53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048B0237248BF4540003F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048B0239248BF4540003F53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		048B023A248BF4540003F53E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048B023E248BF4540003F53E /* MsADTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsADTableViewController.h; sourceTree = "<group>"; };
+		048B0243248BF4540003F53E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048B0245248BF4540003F53E /* MsADTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsADTableViewController.m; sourceTree = "<group>"; };
+		04E47FD724971BE4006903C5 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		04E47FD924971BEA006903C5 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		04E47FDB24971BEE006903C5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5A1508CF2795127300952903 /* TradPlusAdNativeDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdNativeDrawViewController.h; sourceTree = "<group>"; };
+		5A1508D02795127300952903 /* TradPlusAdNativeDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdNativeDrawViewController.m; sourceTree = "<group>"; };
+		5A1508D12795127300952903 /* TradPlusAdNativeDrawViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdNativeDrawViewController.xib; sourceTree = "<group>"; };
+		5A1508D72795191D00952903 /* NativeDrawListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeDrawListViewController.m; sourceTree = "<group>"; };
+		5A1508D82795191E00952903 /* NativeDrawListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeDrawListViewController.xib; sourceTree = "<group>"; };
+		5A1508DB2795191E00952903 /* NativeDrawListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeDrawListViewController.h; sourceTree = "<group>"; };
+		5A19D462289CC78D0054CB52 /* TradPlusAdOfferwallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdOfferwallViewController.h; sourceTree = "<group>"; };
+		5A19D463289CC78D0054CB52 /* TradPlusAdOfferwallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdOfferwallViewController.m; sourceTree = "<group>"; };
+		5A19D464289CC78D0054CB52 /* TradPlusAdOfferwallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdOfferwallViewController.xib; sourceTree = "<group>"; };
+		5A29FB5C2AD24867005AC9C7 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		5A2F261726CB57C300CAD358 /* TPNativeTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPNativeTemplate.m; sourceTree = "<group>"; };
+		5A2F261826CB57C300CAD358 /* TPNativeTemplate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPNativeTemplate.xib; sourceTree = "<group>"; };
+		5A2F261926CB57C300CAD358 /* TPNativeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPNativeTemplate.h; sourceTree = "<group>"; };
+		5A63CA5929B0445C00F13C07 /* TradPlusAdMediaVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdMediaVideoViewController.h; sourceTree = "<group>"; };
+		5A63CA5A29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdMediaVideoViewController.m; sourceTree = "<group>"; };
+		5A63CA5B29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdMediaVideoViewController.xib; sourceTree = "<group>"; };
+		5A63CA5E29B0546100F13C07 /* MediaVideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaVideoManager.h; sourceTree = "<group>"; };
+		5A63CA5F29B0546100F13C07 /* MediaVideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaVideoManager.m; sourceTree = "<group>"; };
+		5A63CA6129B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdPreloadMediaVideoViewController.h; sourceTree = "<group>"; };
+		5A63CA6229B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdPreloadMediaVideoViewController.m; sourceTree = "<group>"; };
+		5A63CA6329B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdPreloadMediaVideoViewController.xib; sourceTree = "<group>"; };
+		5A7FF42F28F169FC00CDB172 /* AutoLayoutNatvieRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutNatvieRenderer.m; sourceTree = "<group>"; };
+		5A7FF43028F169FC00CDB172 /* AutoLayoutNatvieRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutNatvieRenderer.h; sourceTree = "<group>"; };
+		5A7FF43228F16A2C00CDB172 /* AutoLayoutNativeTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutNativeTemplate.h; sourceTree = "<group>"; };
+		5A7FF43328F16A2C00CDB172 /* AutoLayoutNativeTemplate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutNativeTemplate.xib; sourceTree = "<group>"; };
+		5A7FF43428F16A2C00CDB172 /* AutoLayoutNativeTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutNativeTemplate.m; sourceTree = "<group>"; };
+		5A95FCC128B74C3700FAF758 /* TradPlusAdNativeInListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdNativeInListViewController.h; sourceTree = "<group>"; };
+		5A95FCC228B74C3700FAF758 /* TradPlusAdNativeInListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdNativeInListViewController.m; sourceTree = "<group>"; };
+		5A95FCC328B74C3700FAF758 /* TradPlusAdNativeInListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdNativeInListViewController.xib; sourceTree = "<group>"; };
+		5A95FCCC28B755CD00FAF758 /* TPListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPListItem.h; sourceTree = "<group>"; };
+		5A95FCCD28B755CD00FAF758 /* TPListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPListItem.m; sourceTree = "<group>"; };
+		5A95FCD128B77BE200FAF758 /* TPNativeInListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPNativeInListView.h; sourceTree = "<group>"; };
+		5A95FCD228B77BE200FAF758 /* TPNativeInListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPNativeInListView.m; sourceTree = "<group>"; };
+		5A95FCD328B77BE200FAF758 /* TPNativeInListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPNativeInListView.xib; sourceTree = "<group>"; };
+		5A98A01826CB58D200C11B85 /* TradPlusAdNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdNativeViewController.h; sourceTree = "<group>"; };
+		5A98A01926CB58D200C11B85 /* TradPlusAdNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdNativeViewController.m; sourceTree = "<group>"; };
+		5A98A01A26CB58D200C11B85 /* TradPlusAdNativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdNativeViewController.xib; sourceTree = "<group>"; };
+		5AAAE0A22FE28ED8001E9B18 /* TPBannerInListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPBannerInListViewController.h; sourceTree = "<group>"; };
+		5AAAE0A32FE28ED8001E9B18 /* TPBannerInListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPBannerInListViewController.m; sourceTree = "<group>"; };
+		5ABF4AE02C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradPlusAdMediaVMAPViewController.h; sourceTree = "<group>"; };
+		5ABF4AE12C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdMediaVMAPViewController.m; sourceTree = "<group>"; };
+		5ABF4AE22C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradPlusAdMediaVMAPViewController.xib; sourceTree = "<group>"; };
+		5ACB751B2711AC3500FC9735 /* CustomSplashAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSplashAdapter.h; sourceTree = "<group>"; };
+		5ACB751C2711AC3500FC9735 /* CustomAdMobNativeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAdMobNativeAdapter.h; sourceTree = "<group>"; };
+		5ACB751D2711AC3500FC9735 /* CustomAdMobNativeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAdMobNativeAdapter.m; sourceTree = "<group>"; };
+		5ACB751E2711AC3500FC9735 /* CustomRewardedAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRewardedAdapter.m; sourceTree = "<group>"; };
+		5ACB751F2711AC3500FC9735 /* CustomSplashAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSplashAdapter.m; sourceTree = "<group>"; };
+		5ACB75202711AC3500FC9735 /* CustomBannerAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBannerAdapter.h; sourceTree = "<group>"; };
+		5ACB75212711AC3500FC9735 /* CustomInterstitialAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInterstitialAdapter.h; sourceTree = "<group>"; };
+		5ACB75222711AC3500FC9735 /* CustomRewardedAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRewardedAdapter.h; sourceTree = "<group>"; };
+		5ACB75232711AC3500FC9735 /* CustomInterstitialAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInterstitialAdapter.m; sourceTree = "<group>"; };
+		5ACB75242711AC3500FC9735 /* CustomBannerAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBannerAdapter.m; sourceTree = "<group>"; };
+		5ACB752F2713EAAA00FC9735 /* CustomFacebookNativeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFacebookNativeAdapter.h; sourceTree = "<group>"; };
+		5ACB75312713EAAA00FC9735 /* CustomFacebookNativeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFacebookNativeAdapter.m; sourceTree = "<group>"; };
+		5AD5DE06277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdNativePasterViewController.h; sourceTree = "<group>"; };
+		5AD5DE07277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdNativePasterViewController.m; sourceTree = "<group>"; };
+		5AD5DE08277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdNativePasterViewController.xib; sourceTree = "<group>"; };
+		5AD5DE0B277BFAF8005BAA07 /* TPNativePasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPNativePasterView.h; sourceTree = "<group>"; };
+		5AD5DE0C277BFAF8005BAA07 /* TPNativePasterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TPNativePasterView.xib; sourceTree = "<group>"; };
+		5AD5DE0D277BFAF8005BAA07 /* TPNativePasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPNativePasterView.m; sourceTree = "<group>"; };
+		5AE342B127CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradPlusAdNativeCustomCountViewController.h; sourceTree = "<group>"; };
+		5AE342B227CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdNativeCustomCountViewController.m; sourceTree = "<group>"; };
+		5AE342B327CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TradPlusAdNativeCustomCountViewController.xib; sourceTree = "<group>"; };
+		5AE6C5B12750C4D900B0AD17 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5AF1AC5F2705B830006E2645 /* TradPlusAdInterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradPlusAdInterstitialViewController.xib; sourceTree = "<group>"; };
+		5AF1AC602705B830006E2645 /* TradPlusAdInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradPlusAdInterstitialViewController.h; sourceTree = "<group>"; };
+		5AF1AC612705B830006E2645 /* TradPlusAdInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdInterstitialViewController.m; sourceTree = "<group>"; };
+		5AF1AC642705B8A7006E2645 /* TradPlusAdRewardedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradPlusAdRewardedViewController.xib; sourceTree = "<group>"; };
+		5AF1AC652705B8A7006E2645 /* TradPlusAdRewardedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradPlusAdRewardedViewController.h; sourceTree = "<group>"; };
+		5AF1AC662705B8A7006E2645 /* TradPlusAdRewardedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdRewardedViewController.m; sourceTree = "<group>"; };
+		5AF1AC6A2705B91B006E2645 /* TradPlusAdSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdSplashViewController.m; sourceTree = "<group>"; };
+		5AF1AC6B2705B91B006E2645 /* TradPlusAdSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradPlusAdSplashViewController.h; sourceTree = "<group>"; };
+		5AF1AC6C2705B91B006E2645 /* TradPlusAdSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradPlusAdSplashViewController.xib; sourceTree = "<group>"; };
+		5AF6AA7F2C9D5A8700A9DA40 /* NativeBannerTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeBannerTemplate.h; sourceTree = "<group>"; };
+		5AF6AA802C9D5A8700A9DA40 /* NativeBannerTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeBannerTemplate.m; sourceTree = "<group>"; };
+		5AF6AA812C9D5A8700A9DA40 /* NativeBannerTemplate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeBannerTemplate.xib; sourceTree = "<group>"; };
+		5AFA31EF26F5B0E800F21A36 /* TradPlusAdBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradPlusAdBannerViewController.h; sourceTree = "<group>"; };
+		5AFA31F026F5B0E800F21A36 /* TradPlusAdBannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradPlusAdBannerViewController.xib; sourceTree = "<group>"; };
+		5AFA31F126F5B0E800F21A36 /* TradPlusAdBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradPlusAdBannerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048B0212248BF2600003F53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E47FDC24971BEF006903C5 /* libz.tbd in Frameworks */,
+				04E47FDA24971BEA006903C5 /* libxml2.tbd in Frameworks */,
+				04E47FD824971BE4006903C5 /* libresolv.tbd in Frameworks */,
+					);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048B020C248BF2600003F53E = {
+			isa = PBXGroup;
+			children = (
+				048B0217248BF2600003F53E /* TradPlusDemo */,
+				5AE6C5B12750C4D900B0AD17 /* File.swift */,
+				048B0231248BF4530003F53E /* Assets.xcassets */,
+				5A29FB5C2AD24867005AC9C7 /* video.mp4 */,
+				048B022A248BF2650003F53E /* main.m */,
+				048B0235248BF4540003F53E /* Base.lproj */,
+				048B0216248BF2600003F53E /* Products */,
+				048B025E248BF57A0003F53E /* Frameworks */,
+					);
+			sourceTree = "<group>";
+		};
+		048B0216248BF2600003F53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048B0215248BF2600003F53E /* TradPlusDemoN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048B0217248BF2600003F53E /* TradPlusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				048B0243248BF4540003F53E /* AppDelegate.h */,
+				048B023A248BF4540003F53E /* AppDelegate.m */,
+				5A7FF42E28F169EE00CDB172 /* AutoLayoutNatvie */,
+				5AF1AC6F2705B954006E2645 /* CustomPlatform */,
+				048B0229248BF2650003F53E /* Info.plist */,
+				5A63CA5E29B0546100F13C07 /* MediaVideoManager.h */,
+				5A63CA5F29B0546100F13C07 /* MediaVideoManager.m */,
+				048B023E248BF4540003F53E /* MsADTableViewController.h */,
+				048B0245248BF4540003F53E /* MsADTableViewController.m */,
+				048B0280248C01010003F53E /* Native */,
+				5A1508CE27950DEC00952903 /* NativeDraw */,
+				5AD5DE05277BFABB005BAA07 /* NativePaster */,
+				5AAAE0A22FE28ED8001E9B18 /* TPBannerInListViewController.h */,
+				5AAAE0A32FE28ED8001E9B18 /* TPBannerInListViewController.m */,
+				5AFA31EF26F5B0E800F21A36 /* TradPlusAdBannerViewController.h */,
+				5AFA31F126F5B0E800F21A36 /* TradPlusAdBannerViewController.m */,
+				5AFA31F026F5B0E800F21A36 /* TradPlusAdBannerViewController.xib */,
+				5AF1AC602705B830006E2645 /* TradPlusAdInterstitialViewController.h */,
+				5AF1AC612705B830006E2645 /* TradPlusAdInterstitialViewController.m */,
+				5AF1AC5F2705B830006E2645 /* TradPlusAdInterstitialViewController.xib */,
+				5A63CA5929B0445C00F13C07 /* TradPlusAdMediaVideoViewController.h */,
+				5A63CA5A29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.m */,
+				5A63CA5B29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.xib */,
+				5ABF4AE02C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.h */,
+				5ABF4AE12C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.m */,
+				5ABF4AE22C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.xib */,
+				5A19D462289CC78D0054CB52 /* TradPlusAdOfferwallViewController.h */,
+				5A19D463289CC78D0054CB52 /* TradPlusAdOfferwallViewController.m */,
+				5A19D464289CC78D0054CB52 /* TradPlusAdOfferwallViewController.xib */,
+				5A63CA6129B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.h */,
+				5A63CA6229B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.m */,
+				5A63CA6329B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.xib */,
+				5AF1AC652705B8A7006E2645 /* TradPlusAdRewardedViewController.h */,
+				5AF1AC662705B8A7006E2645 /* TradPlusAdRewardedViewController.m */,
+				5AF1AC642705B8A7006E2645 /* TradPlusAdRewardedViewController.xib */,
+				5AF1AC6B2705B91B006E2645 /* TradPlusAdSplashViewController.h */,
+				5AF1AC6A2705B91B006E2645 /* TradPlusAdSplashViewController.m */,
+				5AF1AC6C2705B91B006E2645 /* TradPlusAdSplashViewController.xib */,
+			);
+			path = TradPlusDemo;
+			sourceTree = "<group>";
+		};
+		048B0235248BF4540003F53E /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				048B0236248BF4540003F53E /* LaunchScreen.storyboard */,
+				048B0238248BF4540003F53E /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		048B025E248BF57A0003F53E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E47FDB24971BEE006903C5 /* libz.tbd */,
+				04E47FD924971BEA006903C5 /* libxml2.tbd */,
+				04E47FD724971BE4006903C5 /* libresolv.tbd */,
+					);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		048B0280248C01010003F53E /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				5AF6AA7F2C9D5A8700A9DA40 /* NativeBannerTemplate.h */,
+				5AF6AA802C9D5A8700A9DA40 /* NativeBannerTemplate.m */,
+				5AF6AA812C9D5A8700A9DA40 /* NativeBannerTemplate.xib */,
+				5A2F261926CB57C300CAD358 /* TPNativeTemplate.h */,
+				5A2F261726CB57C300CAD358 /* TPNativeTemplate.m */,
+				5A2F261826CB57C300CAD358 /* TPNativeTemplate.xib */,
+				5A98A01826CB58D200C11B85 /* TradPlusAdNativeViewController.h */,
+				5A98A01926CB58D200C11B85 /* TradPlusAdNativeViewController.m */,
+				5A98A01A26CB58D200C11B85 /* TradPlusAdNativeViewController.xib */,
+				5AE342B127CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.h */,
+				5AE342B227CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.m */,
+				5AE342B327CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.xib */,
+				5A95FCD628B77BEF00FAF758 /* NativeInList */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		5A1508CE27950DEC00952903 /* NativeDraw */ = {
+			isa = PBXGroup;
+			children = (
+				5A1508DB2795191E00952903 /* NativeDrawListViewController.h */,
+				5A1508D72795191D00952903 /* NativeDrawListViewController.m */,
+				5A1508D82795191E00952903 /* NativeDrawListViewController.xib */,
+				5A1508CF2795127300952903 /* TradPlusAdNativeDrawViewController.h */,
+				5A1508D02795127300952903 /* TradPlusAdNativeDrawViewController.m */,
+				5A1508D12795127300952903 /* TradPlusAdNativeDrawViewController.xib */,
+			);
+			path = NativeDraw;
+			sourceTree = "<group>";
+		};
+		5A7FF42E28F169EE00CDB172 /* AutoLayoutNatvie */ = {
+			isa = PBXGroup;
+			children = (
+				5A7FF43228F16A2C00CDB172 /* AutoLayoutNativeTemplate.h */,
+				5A7FF43428F16A2C00CDB172 /* AutoLayoutNativeTemplate.m */,
+				5A7FF43328F16A2C00CDB172 /* AutoLayoutNativeTemplate.xib */,
+				5A7FF43028F169FC00CDB172 /* AutoLayoutNatvieRenderer.h */,
+				5A7FF42F28F169FC00CDB172 /* AutoLayoutNatvieRenderer.m */,
+			);
+			path = AutoLayoutNatvie;
+			sourceTree = "<group>";
+		};
+		5A95FCD628B77BEF00FAF758 /* NativeInList */ = {
+			isa = PBXGroup;
+			children = (
+				5A95FCCC28B755CD00FAF758 /* TPListItem.h */,
+				5A95FCCD28B755CD00FAF758 /* TPListItem.m */,
+				5A95FCD128B77BE200FAF758 /* TPNativeInListView.h */,
+				5A95FCD228B77BE200FAF758 /* TPNativeInListView.m */,
+				5A95FCD328B77BE200FAF758 /* TPNativeInListView.xib */,
+				5A95FCC128B74C3700FAF758 /* TradPlusAdNativeInListViewController.h */,
+				5A95FCC228B74C3700FAF758 /* TradPlusAdNativeInListViewController.m */,
+				5A95FCC328B74C3700FAF758 /* TradPlusAdNativeInListViewController.xib */,
+			);
+			path = NativeInList;
+			sourceTree = "<group>";
+		};
+		5AD5DE05277BFABB005BAA07 /* NativePaster */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5DE0B277BFAF8005BAA07 /* TPNativePasterView.h */,
+				5AD5DE0D277BFAF8005BAA07 /* TPNativePasterView.m */,
+				5AD5DE0C277BFAF8005BAA07 /* TPNativePasterView.xib */,
+				5AD5DE06277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.h */,
+				5AD5DE07277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.m */,
+				5AD5DE08277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.xib */,
+			);
+			path = NativePaster;
+			sourceTree = "<group>";
+		};
+		5AF1AC6F2705B954006E2645 /* CustomPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB75202711AC3500FC9735 /* CustomBannerAdapter.h */,
+				5ACB75242711AC3500FC9735 /* CustomBannerAdapter.m */,
+				5ACB75212711AC3500FC9735 /* CustomInterstitialAdapter.h */,
+				5ACB75232711AC3500FC9735 /* CustomInterstitialAdapter.m */,
+				5ACB75222711AC3500FC9735 /* CustomRewardedAdapter.h */,
+				5ACB751E2711AC3500FC9735 /* CustomRewardedAdapter.m */,
+				5ACB751B2711AC3500FC9735 /* CustomSplashAdapter.h */,
+				5ACB751F2711AC3500FC9735 /* CustomSplashAdapter.m */,
+				5ACB751C2711AC3500FC9735 /* CustomAdMobNativeAdapter.h */,
+				5ACB751D2711AC3500FC9735 /* CustomAdMobNativeAdapter.m */,
+				5ACB752F2713EAAA00FC9735 /* CustomFacebookNativeAdapter.h */,
+				5ACB75312713EAAA00FC9735 /* CustomFacebookNativeAdapter.m */,
+			);
+			path = CustomPlatform;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048B0214248BF2600003F53E /* TradPlusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048B022E248BF2650003F53E /* Build configuration list for PBXNativeTarget "TradPlusDemo" */;
+			buildPhases = (
+				048B0211248BF2600003F53E /* Sources */,
+				048B0212248BF2600003F53E /* Frameworks */,
+				048B0213248BF2600003F53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			packageProductDependencies = (
+				7893D87F2066444A88B2002A /* TradPlusAdSDK */,
+				F2E467323CEF41AEAD26757A /* TradPlusAdMobAdapter */,
+				F795DA54E97B4405812DAF53 /* TradPlusMetaAdapter */,
+				E2B20F59AB594B1DBC157BE7 /* TradPlusAppLovinAdapter */,
+				772ED1AEEB2D45E2B51C4C7E /* TradPlusUnityAdapter */,
+				B2227EA493E543A7B768EE78 /* TradPlusChartboostAdapter */,
+				009CC17408F941EEB8A40B76 /* TradPlusOguryAdapter */,
+				3AFD4702C10F455BA896372A /* TradPlusGoogleIMAAdapter */,
+				EED59CB7554F444F94DAB15B /* TradPlusPangleAdapter */,
+				9669C7CDBE784A488F94D26B /* GoogleMobileAds */,
+				9199DF88001F454BB4FB74D0 /* FBAudienceNetwork */,
+				D7F3E2B13C4D5E6F8A9B0C1D /* TPMediationHelper */,
+			);
+			name = TradPlusDemo;
+			productName = TradPlusDemo;
+			productReference = 048B0215248BF2600003F53E /* TradPlusDemoN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048B020D248BF2600003F53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = tradplus;
+				TargetAttributes = {
+					048B0214248BF2600003F53E = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 048B0210248BF2600003F53E /* Build configuration list for PBXProject "TradPlusDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048B020C248BF2600003F53E;
+			productRefGroup = 048B0216248BF2600003F53E /* Products */;
+			projectDirPath = "";
+			packageReferences = (
+				7B77F8BC097D453D85E68ED7 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM" */,
+				D0368235234F48CBA4016063 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AdMob" */,
+				F16CC2C1355C4A61839B3CD1 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Meta" */,
+				164AD4A6073045E781BFDF78 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AppLovin" */,
+				42FC635DFCC74533A9597A6C /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Unity" */,
+				1736B84A13A1401F90FE5376 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Chartboost" */,
+				EB851C8FB21F4806B78F5344 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Ogury" */,
+				B0E421D4214D455CA00170EA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-GoogleIMA" */,
+				DE29A0E7C26C4933AE7F9BCA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Pangle" */,
+				4B6B430836274865888D6C0A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				773AB7EC211845FEB2363E79 /* XCRemoteSwiftPackageReference "FBAudienceNetwork" */,
+				C8E4F1A02B3D4E5F9A6B7C8D /* XCRemoteSwiftPackageReference "pod_TPMediationHelper_sdk" */,
+			);
+			projectRoot = "";
+			targets = (
+				048B0214248BF2600003F53E /* TradPlusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048B0213248BF2600003F53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F261B26CB57C300CAD358 /* TPNativeTemplate.xib in Resources */,
+				5AF1AC6E2705B91B006E2645 /* TradPlusAdSplashViewController.xib in Resources */,
+				048B024C248BF4540003F53E /* Main.storyboard in Resources */,
+				048B0248248BF4540003F53E /* Assets.xcassets in Resources */,
+						5A1508E12795191E00952903 /* NativeDrawListViewController.xib in Resources */,
+				5AD5DE0E277BFAF8005BAA07 /* TPNativePasterView.xib in Resources */,
+				5A29FB5D2AD24867005AC9C7 /* video.mp4 in Resources */,
+				5A98A01C26CB58D200C11B85 /* TradPlusAdNativeViewController.xib in Resources */,
+				5ABF4AE42C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.xib in Resources */,
+				5A63CA5D29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.xib in Resources */,
+				5AF6AA832C9D5A8700A9DA40 /* NativeBannerTemplate.xib in Resources */,
+				5A7FF43528F16A2C00CDB172 /* AutoLayoutNativeTemplate.xib in Resources */,
+				5AE342B527CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.xib in Resources */,
+						5A95FCD528B77BE200FAF758 /* TPNativeInListView.xib in Resources */,
+				5A63CA6529B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.xib in Resources */,
+				5AF1AC622705B830006E2645 /* TradPlusAdInterstitialViewController.xib in Resources */,
+				5AFA31F226F5B0E800F21A36 /* TradPlusAdBannerViewController.xib in Resources */,
+				5AD5DE0A277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.xib in Resources */,
+				048B024B248BF4540003F53E /* LaunchScreen.storyboard in Resources */,
+				5AF1AC672705B8A7006E2645 /* TradPlusAdRewardedViewController.xib in Resources */,
+				5A1508D32795127300952903 /* TradPlusAdNativeDrawViewController.xib in Resources */,
+				5A95FCC528B74C3700FAF758 /* TradPlusAdNativeInListViewController.xib in Resources */,
+				5A19D466289CC78D0054CB52 /* TradPlusAdOfferwallViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048B0211248BF2600003F53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB75262711AC3500FC9735 /* CustomRewardedAdapter.m in Sources */,
+				5A7FF43128F169FC00CDB172 /* AutoLayoutNatvieRenderer.m in Sources */,
+						5A95FCCE28B755CD00FAF758 /* TPListItem.m in Sources */,
+				5A1508D22795127300952903 /* TradPlusAdNativeDrawViewController.m in Sources */,
+				5AD5DE0F277BFAF8005BAA07 /* TPNativePasterView.m in Sources */,
+						5A19D465289CC78D0054CB52 /* TradPlusAdOfferwallViewController.m in Sources */,
+				048B024D248BF4540003F53E /* AppDelegate.m in Sources */,
+				048B0253248BF4540003F53E /* MsADTableViewController.m in Sources */,
+				5AF6AA822C9D5A8700A9DA40 /* NativeBannerTemplate.m in Sources */,
+				5A1508E02795191E00952903 /* NativeDrawListViewController.m in Sources */,
+				5A7FF43628F16A2C00CDB172 /* AutoLayoutNativeTemplate.m in Sources */,
+				5AE342B427CF5E5100D33504 /* TradPlusAdNativeCustomCountViewController.m in Sources */,
+				5AF1AC632705B830006E2645 /* TradPlusAdInterstitialViewController.m in Sources */,
+				5AE6C5B22750C4D900B0AD17 /* File.swift in Sources */,
+				5A95FCC428B74C3700FAF758 /* TradPlusAdNativeInListViewController.m in Sources */,
+				5ACB75272711AC3500FC9735 /* CustomSplashAdapter.m in Sources */,
+				5ACB75332713EAAA00FC9735 /* CustomFacebookNativeAdapter.m in Sources */,
+				5AFA31F326F5B0E800F21A36 /* TradPlusAdBannerViewController.m in Sources */,
+				048B022B248BF2650003F53E /* main.m in Sources */,
+				5ACB75282711AC3500FC9735 /* CustomInterstitialAdapter.m in Sources */,
+				5AD5DE09277BFAE5005BAA07 /* TradPlusAdNativePasterViewController.m in Sources */,
+				5ACB75292711AC3500FC9735 /* CustomBannerAdapter.m in Sources */,
+				5AF1AC6D2705B91B006E2645 /* TradPlusAdSplashViewController.m in Sources */,
+				5A95FCD428B77BE200FAF758 /* TPNativeInListView.m in Sources */,
+				5A63CA6429B0579600F13C07 /* TradPlusAdPreloadMediaVideoViewController.m in Sources */,
+				5A63CA6029B0546100F13C07 /* MediaVideoManager.m in Sources */,
+						5ACB75252711AC3500FC9735 /* CustomAdMobNativeAdapter.m in Sources */,
+				5AAAE0A42FE28ED8001E9B18 /* TPBannerInListViewController.m in Sources */,
+				5ABF4AE32C8EF3B400C646B1 /* TradPlusAdMediaVMAPViewController.m in Sources */,
+						5A63CA5C29B0445C00F13C07 /* TradPlusAdMediaVideoViewController.m in Sources */,
+				5A98A01B26CB58D200C11B85 /* TradPlusAdNativeViewController.m in Sources */,
+				5AF1AC682705B8A7006E2645 /* TradPlusAdRewardedViewController.m in Sources */,
+				5A2F261A26CB57C300CAD358 /* TPNativeTemplate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048B0236248BF4540003F53E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048B0237248BF4540003F53E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		048B0238248BF4540003F53E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048B0239248BF4540003F53E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048B022C248BF2650003F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048B022D248BF2650003F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048B022F248BF2650003F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39CE8S36WK;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TradPlusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 10.1.0;
+				OTHER_LDFLAGS = (
+				"-ObjC",
+			);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradplusad.koala;
+				PRODUCT_NAME = TradPlusDemoN;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048B0230248BF2650003F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39CE8S36WK;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TradPlusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 10.1.0;
+				OTHER_LDFLAGS = (
+				"-ObjC",
+			);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tradplusad.koala;
+				PRODUCT_NAME = TradPlusDemoN;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048B0210248BF2600003F53E /* Build configuration list for PBXProject "TradPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048B022C248BF2650003F53E /* Debug */,
+				048B022D248BF2650003F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048B022E248BF2650003F53E /* Build configuration list for PBXNativeTarget "TradPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048B022F248BF2650003F53E /* Debug */,
+				048B0230248BF2650003F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* Begin XCRemoteSwiftPackageReference section */
+		7B77F8BC097D453D85E68ED7 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		D0368235234F48CBA4016063 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AdMob" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-AdMob.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		F16CC2C1355C4A61839B3CD1 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Meta" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Meta.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		164AD4A6073045E781BFDF78 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AppLovin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-AppLovin.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		42FC635DFCC74533A9597A6C /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Unity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Unity.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		1736B84A13A1401F90FE5376 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Chartboost" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Chartboost.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		EB851C8FB21F4806B78F5344 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Ogury" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Ogury.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		B0E421D4214D455CA00170EA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-GoogleIMA" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-GoogleIMA.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		DE29A0E7C26C4933AE7F9BCA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Pangle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Pangle.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.12.0;
+			};
+		};
+		4B6B430836274865888D6C0A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.6.0;
+			};
+		};
+		773AB7EC211845FEB2363E79 /* XCRemoteSwiftPackageReference "FBAudienceNetwork" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/FBAudienceNetwork.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.21.1;
+			};
+		};
+		C8E4F1A02B3D4E5F9A6B7C8D /* XCRemoteSwiftPackageReference "pod_TPMediationHelper_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/pod_TPMediationHelper_sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7893D87F2066444A88B2002A /* TradPlusAdSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B77F8BC097D453D85E68ED7 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM" */;
+			productName = TradPlusAdSDK;
+		};
+		F2E467323CEF41AEAD26757A /* TradPlusAdMobAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0368235234F48CBA4016063 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AdMob" */;
+			productName = TradPlusAdMobAdapter;
+		};
+		F795DA54E97B4405812DAF53 /* TradPlusMetaAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F16CC2C1355C4A61839B3CD1 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Meta" */;
+			productName = TradPlusMetaAdapter;
+		};
+		E2B20F59AB594B1DBC157BE7 /* TradPlusAppLovinAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 164AD4A6073045E781BFDF78 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AppLovin" */;
+			productName = TradPlusAppLovinAdapter;
+		};
+		772ED1AEEB2D45E2B51C4C7E /* TradPlusUnityAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42FC635DFCC74533A9597A6C /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Unity" */;
+			productName = TradPlusUnityAdapter;
+		};
+		B2227EA493E543A7B768EE78 /* TradPlusChartboostAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1736B84A13A1401F90FE5376 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Chartboost" */;
+			productName = TradPlusChartboostAdapter;
+		};
+		009CC17408F941EEB8A40B76 /* TradPlusOguryAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB851C8FB21F4806B78F5344 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Ogury" */;
+			productName = TradPlusOguryAdapter;
+		};
+		3AFD4702C10F455BA896372A /* TradPlusGoogleIMAAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0E421D4214D455CA00170EA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-GoogleIMA" */;
+			productName = TradPlusGoogleIMAAdapter;
+		};
+		EED59CB7554F444F94DAB15B /* TradPlusPangleAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE29A0E7C26C4933AE7F9BCA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Pangle" */;
+			productName = TradPlusPangleAdapter;
+		};
+		9669C7CDBE784A488F94D26B /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B6B430836274865888D6C0A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		9199DF88001F454BB4FB74D0 /* FBAudienceNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 773AB7EC211845FEB2363E79 /* XCRemoteSwiftPackageReference "FBAudienceNetwork" */;
+			productName = FBAudienceNetwork;
+		};
+		D7F3E2B13C4D5E6F8A9B0C1D /* TPMediationHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8E4F1A02B3D4E5F9A6B7C8D /* XCRemoteSwiftPackageReference "pod_TPMediationHelper_sdk" */;
+			productName = TPMediationHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
+/* End XCConfigurationList section */
+	};
+	rootObject = 048B020D248BF2600003F53E /* Project object */;
+}
