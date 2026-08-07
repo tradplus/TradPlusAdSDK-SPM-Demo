@@ -380,7 +380,6 @@
 				009CC17408F941EEB8A40B76 /* TradPlusOguryAdapter */,
 				3AFD4702C10F455BA896372A /* TradPlusGoogleIMAAdapter */,
 				EED59CB7554F444F94DAB15B /* TradPlusPangleAdapter */,
-				E5F6A7B82C3D4E5F9A1B2C3D /* TradPlusTPCrossAdapter */,
 				9669C7CDBE784A488F94D26B /* GoogleMobileAds */,
 				9199DF88001F454BB4FB74D0 /* FBAudienceNetwork */,
 				D7F3E2B13C4D5E6F8A9B0C1D /* TPMediationHelper */,
@@ -429,7 +428,6 @@
 				4B6B430836274865888D6C0A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 				773AB7EC211845FEB2363E79 /* XCRemoteSwiftPackageReference "FBAudienceNetwork" */,
 				C8E4F1A02B3D4E5F9A6B7C8D /* XCRemoteSwiftPackageReference "pod_TPMediationHelper_sdk" */,
-				A1B2C3D42E5F4789A1B2C3D4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-TPCross" */,
 			);
 			projectRoot = "";
 			targets = (
@@ -828,14 +826,6 @@
 				version = 1.4.1;
 			};
 		};
-		A1B2C3D42E5F4789A1B2C3D4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-TPCross" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-TPCross.git";
-			requirement = {
-				kind = exactVersion;
-				version = 15.12.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -898,11 +888,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C8E4F1A02B3D4E5F9A6B7C8D /* XCRemoteSwiftPackageReference "pod_TPMediationHelper_sdk" */;
 			productName = TPMediationHelper;
-		};
-		E5F6A7B82C3D4E5F9A1B2C3D /* TradPlusTPCrossAdapter */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A1B2C3D42E5F4789A1B2C3D4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-TPCross" */;
-			productName = TradPlusTPCrossAdapter;
 		};
 /* End XCSwiftPackageProductDependency section */
 /* End XCConfigurationList section */

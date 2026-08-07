@@ -26,8 +26,9 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 | TradPlusAdSDK-SPM-Ogury | Ogury |
 | TradPlusAdSDK-SPM-GoogleIMA | Google IMA |
 | TradPlusAdSDK-SPM-Pangle | Pangle Global |
-| TradPlusAdSDK-SPM-TPCross | TP Cross（自有交叉推广） |
 | [TPMediationHelper](https://github.com/tradplus/pod_TPMediationHelper_sdk) | 测试与排查工具 `1.4.1` |
+
+> `TPCrossAdapter` 已默认包含在 `TradPlusAdSDK-SPM` 主包中，无需单独添加。
 
 ## 快速开始
 
