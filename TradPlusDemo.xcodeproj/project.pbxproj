@@ -380,6 +380,11 @@
 				009CC17408F941EEB8A40B76 /* TradPlusOguryAdapter */,
 				3AFD4702C10F455BA896372A /* TradPlusGoogleIMAAdapter */,
 				EED59CB7554F444F94DAB15B /* TradPlusPangleAdapter */,
+				F6A7B8C9D0E17234F5A6B7C8 /* TradPlusHyBidAdapter */,
+				A7B8C9D0E1F28345A6B7C8D9 /* TradPlusMintegralAdapter */,
+				B8C9D0E1F2A39456B7C8D9E0 /* TradPlusVungleAdapter */,
+				C9D0E1F2A3B40567C8D9E0F1 /* TradPlusYandexAdapter */,
+				D0E1F2A3B4C51678D9E0F1A2 /* TradPlusTaurusXAdapter */,
 				9669C7CDBE784A488F94D26B /* GoogleMobileAds */,
 				9199DF88001F454BB4FB74D0 /* FBAudienceNetwork */,
 				D7F3E2B13C4D5E6F8A9B0C1D /* TPMediationHelper */,
@@ -425,6 +430,11 @@
 				EB851C8FB21F4806B78F5344 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Ogury" */,
 				B0E421D4214D455CA00170EA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-GoogleIMA" */,
 				DE29A0E7C26C4933AE7F9BCA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Pangle" */,
+				A1B2C3D4E5F64789A0B1C2D3 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-HyBid" */,
+				B2C3D4E5F6A74890B1C2D3E4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Mintegral" */,
+				C3D4E5F6A7B84901C2D3E4F5 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Vungle" */,
+				D4E5F6A7B8C95012D3E4F5A6 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Yandex" */,
+				E5F6A7B8C9D06123E4F5A6B7 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-TaurusX" */,
 				4B6B430836274865888D6C0A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 				773AB7EC211845FEB2363E79 /* XCRemoteSwiftPackageReference "FBAudienceNetwork" */,
 				C8E4F1A02B3D4E5F9A6B7C8D /* XCRemoteSwiftPackageReference "pod_TPMediationHelper_sdk" */,
@@ -585,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -637,7 +647,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -660,7 +670,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TradPlusDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -692,7 +702,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TradPlusDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -735,7 +745,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		D0368235234F48CBA4016063 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AdMob" */ = {
@@ -743,7 +753,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-AdMob.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		F16CC2C1355C4A61839B3CD1 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Meta" */ = {
@@ -751,7 +761,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Meta.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		164AD4A6073045E781BFDF78 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AppLovin" */ = {
@@ -759,7 +769,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-AppLovin.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		42FC635DFCC74533A9597A6C /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Unity" */ = {
@@ -767,7 +777,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Unity.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		1736B84A13A1401F90FE5376 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Chartboost" */ = {
@@ -775,7 +785,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Chartboost.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		EB851C8FB21F4806B78F5344 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Ogury" */ = {
@@ -783,7 +793,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Ogury.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		B0E421D4214D455CA00170EA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-GoogleIMA" */ = {
@@ -791,7 +801,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-GoogleIMA.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
 			};
 		};
 		DE29A0E7C26C4933AE7F9BCA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Pangle" */ = {
@@ -799,7 +809,47 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Pangle.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.12.0;
+				version = 15.13.0;
+			};
+		};
+		A1B2C3D4E5F64789A0B1C2D3 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-HyBid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-HyBid.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.13.0;
+			};
+		};
+		B2C3D4E5F6A74890B1C2D3E4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Mintegral" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Mintegral.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.13.0;
+			};
+		};
+		C3D4E5F6A7B84901C2D3E4F5 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Vungle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Vungle.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.13.0;
+			};
+		};
+		D4E5F6A7B8C95012D3E4F5A6 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Yandex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Yandex.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.13.0;
+			};
+		};
+		E5F6A7B8C9D06123E4F5A6B7 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-TaurusX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-TaurusX.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.13.0;
 			};
 		};
 		4B6B430836274865888D6C0A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
@@ -815,7 +865,7 @@
 			repositoryURL = "https://github.com/facebook/FBAudienceNetwork.git";
 			requirement = {
 				kind = exactVersion;
-				version = 6.21.1;
+				version = 6.22.0;
 			};
 		};
 		C8E4F1A02B3D4E5F9A6B7C8D /* XCRemoteSwiftPackageReference "pod_TPMediationHelper_sdk" */ = {
@@ -873,6 +923,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE29A0E7C26C4933AE7F9BCA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Pangle" */;
 			productName = TradPlusPangleAdapter;
+		};
+		F6A7B8C9D0E17234F5A6B7C8 /* TradPlusHyBidAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1B2C3D4E5F64789A0B1C2D3 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-HyBid" */;
+			productName = TradPlusHyBidAdapter;
+		};
+		A7B8C9D0E1F28345A6B7C8D9 /* TradPlusMintegralAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2C3D4E5F6A74890B1C2D3E4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Mintegral" */;
+			productName = TradPlusMintegralAdapter;
+		};
+		B8C9D0E1F2A39456B7C8D9E0 /* TradPlusVungleAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3D4E5F6A7B84901C2D3E4F5 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Vungle" */;
+			productName = TradPlusVungleAdapter;
+		};
+		C9D0E1F2A3B40567C8D9E0F1 /* TradPlusYandexAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4E5F6A7B8C95012D3E4F5A6 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Yandex" */;
+			productName = TradPlusYandexAdapter;
+		};
+		D0E1F2A3B4C51678D9E0F1A2 /* TradPlusTaurusXAdapter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5F6A7B8C9D06123E4F5A6B7 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-TaurusX" */;
+			productName = TradPlusTaurusXAdapter;
 		};
 		9669C7CDBE784A488F94D26B /* GoogleMobileAds */ = {
 			isa = XCSwiftPackageProductDependency;

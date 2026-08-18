@@ -10,10 +10,10 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 ## 要求
 
 - Xcode 15+
-- iOS 14.0+
+- iOS 15.0+
 - 直接打开 `TradPlusDemo.xcodeproj`（无需 CocoaPods）
 
-## 已集成的 SPM 包（15.12.0）
+## 已集成的 SPM 包（15.13.0）
 
 | 包 | 说明 |
 |---|---|
@@ -22,10 +22,15 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 | TradPlusAdSDK-SPM-Meta | Meta Audience Network |
 | TradPlusAdSDK-SPM-AppLovin | AppLovin MAX |
 | TradPlusAdSDK-SPM-Unity | Unity Ads |
-| TradPlusAdSDK-SPM-Chartboost | Chartboost |
-| TradPlusAdSDK-SPM-Ogury | Ogury |
+| TradPlusAdSDK-SPM-HyBid | Verve / HyBid |
+| TradPlusAdSDK-SPM-Mintegral | Mintegral |
 | TradPlusAdSDK-SPM-GoogleIMA | Google IMA |
 | TradPlusAdSDK-SPM-Pangle | Pangle Global |
+| TradPlusAdSDK-SPM-Vungle | Liftoff Monetize (Vungle) |
+| TradPlusAdSDK-SPM-Yandex | Yandex |
+| TradPlusAdSDK-SPM-TaurusX | TaurusX |
+| TradPlusAdSDK-SPM-Chartboost | Chartboost |
+| TradPlusAdSDK-SPM-Ogury | Ogury |
 | [TPMediationHelper](https://github.com/tradplus/pod_TPMediationHelper_sdk) | 测试与排查工具 `1.4.1` |
 
 > `TPCrossAdapter` 已默认包含在 `TradPlusAdSDK-SPM` 主包中，无需单独添加。
@@ -57,5 +62,5 @@ xcodebuild -project TradPlusDemo.xcodeproj -scheme TradPlusDemo \
 ## 工程配置
 
 - **Other Linker Flags**: `-ObjC`
-- **Deployment Target**: iOS 14.0
+- **Deployment Target**: iOS 15.0
 - App ID / 广告位 ID 见 `TradPlusDemo/AppDelegate.m`
