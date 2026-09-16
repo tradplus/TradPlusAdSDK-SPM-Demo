@@ -13,7 +13,7 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 - iOS 15.0+
 - 直接打开 `TradPlusDemo.xcodeproj`（无需 CocoaPods）
 
-## 已集成的 SPM 包（15.13.0）
+## 已集成的 SPM 包（15.15.0）
 
 | 包 | 说明 |
 |---|---|
@@ -29,6 +29,7 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 | TradPlusAdSDK-SPM-Vungle | Liftoff Monetize (Vungle) |
 | TradPlusAdSDK-SPM-Yandex | Yandex |
 | TradPlusAdSDK-SPM-TaurusX | TaurusX |
+| TradPlusAdSDK-SPM-Moloco | Moloco |
 | TradPlusAdSDK-SPM-Chartboost | Chartboost |
 | TradPlusAdSDK-SPM-Ogury | Ogury |
 | [TPMediationHelper](https://github.com/tradplus/pod_TPMediationHelper_sdk) | 测试与排查工具 `1.4.1` |
