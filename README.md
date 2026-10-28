@@ -13,7 +13,7 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 - iOS 15.0+
 - 直接打开 `TradPlusDemo.xcodeproj`（无需 CocoaPods）
 
-## 已集成的 SPM 包（15.16.0）
+## 已集成的 SPM 包（15.17.0）
 
 | 包 | 说明 |
 |---|---|

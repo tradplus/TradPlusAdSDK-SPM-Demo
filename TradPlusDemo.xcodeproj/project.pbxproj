@@ -747,7 +747,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		D0368235234F48CBA4016063 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AdMob" */ = {
@@ -755,7 +755,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-AdMob.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		F16CC2C1355C4A61839B3CD1 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Meta" */ = {
@@ -763,7 +763,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Meta.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		164AD4A6073045E781BFDF78 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-AppLovin" */ = {
@@ -771,7 +771,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-AppLovin.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		42FC635DFCC74533A9597A6C /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Unity" */ = {
@@ -779,7 +779,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Unity.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		1736B84A13A1401F90FE5376 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Chartboost" */ = {
@@ -787,7 +787,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Chartboost.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		EB851C8FB21F4806B78F5344 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Ogury" */ = {
@@ -795,7 +795,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Ogury.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		B0E421D4214D455CA00170EA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-GoogleIMA" */ = {
@@ -803,7 +803,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-GoogleIMA.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		DE29A0E7C26C4933AE7F9BCA /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Pangle" */ = {
@@ -811,7 +811,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Pangle.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		A1B2C3D4E5F64789A0B1C2D3 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-HyBid" */ = {
@@ -819,7 +819,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-HyBid.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		B2C3D4E5F6A74890B1C2D3E4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Mintegral" */ = {
@@ -827,7 +827,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Mintegral.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		C3D4E5F6A7B84901C2D3E4F5 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Vungle" */ = {
@@ -835,7 +835,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Vungle.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		D4E5F6A7B8C95012D3E4F5A6 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Yandex" */ = {
@@ -843,7 +843,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Yandex.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		E5F6A7B8C9D06123E4F5A6B7 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-TaurusX" */ = {
@@ -851,7 +851,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-TaurusX.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		F1A2B3C4D5E67890A1B2C3D4 /* XCRemoteSwiftPackageReference "TradPlusAdSDK-SPM-Moloco" */ = {
@@ -859,7 +859,7 @@
 			repositoryURL = "https://github.com/tradplus/TradPlusAdSDK-SPM-Moloco.git";
 			requirement = {
 				kind = exactVersion;
-				version = 15.16.0;
+				version = 15.17.0;
 			};
 		};
 		4B6B430836274865888D6C0A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
@@ -867,7 +867,7 @@
 			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
 			requirement = {
 				kind = exactVersion;
-				version = 13.9.0;
+				version = 13.11.0;
 			};
 		};
 		773AB7EC211845FEB2363E79 /* XCRemoteSwiftPackageReference "FBAudienceNetwork" */ = {
