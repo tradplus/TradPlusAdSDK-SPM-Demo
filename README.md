@@ -9,11 +9,11 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 
 ## 要求
 
-- Xcode 15+
+- Xcode 工具链需支持 Swift tools 6.1（本版本验证使用 Xcode 27.1）
 - iOS 15.0+
 - 直接打开 `TradPlusDemo.xcodeproj`（无需 CocoaPods）
 
-## 已集成的 SPM 包（15.17.0）
+## 已集成的 SPM 包（15.18.0）
 
 | 包 | 说明 |
 |---|---|
@@ -32,7 +32,7 @@ TradPlus iOS 广告 SDK 的 **Swift Package Manager** 集成示例工程。
 | TradPlusAdSDK-SPM-Moloco | Moloco |
 | TradPlusAdSDK-SPM-Chartboost | Chartboost |
 | TradPlusAdSDK-SPM-Ogury | Ogury |
-| [TPMediationHelper](https://github.com/tradplus/pod_TPMediationHelper_sdk) | 测试与排查工具 `1.4.1` |
+| [TPMediationHelper](https://github.com/tradplus/pod_TPMediationHelper_sdk) | 测试与排查工具 `1.4.2` |
 
 > `TPCrossAdapter` 已默认包含在 `TradPlusAdSDK-SPM` 主包中，无需单独添加。
 
